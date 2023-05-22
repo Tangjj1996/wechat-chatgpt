@@ -1,5 +1,4 @@
-import * as dotenv from "dotenv";
-dotenv.config();
+import "dotenv";
 import { IConfig } from "./interface";
 
 export const config: IConfig = {

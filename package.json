@@ -5,8 +5,8 @@
   "main": "dist/main.js",
   "export": "dist/main.js",
   "scripts": {
-    "dev": "nodemon --exec node --loader ts-node/esm src/main.ts",
-    "build": "tsc"
+    "start": "npm run dev",
+    "dev": "tsx src/main.ts"
   },
   "author": "",
   "license": "ISC",
@@ -25,8 +25,8 @@
     "@types/async-retry": "^1.4.5",
     "@types/qrcode": "^1.5.0",
     "@types/uuid": "^9.0.0",
-    "nodemon": "^2.0.20",
-    "ts-node": "^10.9.1"
+    "esbuild": "^0.17.19",
+    "tsx": "^3.12.7"
   },
   "nodemonConfig": {
     "watch": [
